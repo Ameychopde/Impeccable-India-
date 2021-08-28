@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.impeccable_india">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Impeccable_India">
+        <activity android:name=".chat2"></activity>
+        <activity android:name=".Politicalnews" />
+        <activity android:name=".technews" />
+        <activity android:name=".culture" />
+        <activity android:name=".infovideo" />
+        <activity android:name=".chat" />
+        <activity android:name=".history" />
+        <activity
+            android:name=".newsdetail"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".froupage" />
+        <activity android:name=".signupPage" />
+        <activity android:name=".Pagelogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

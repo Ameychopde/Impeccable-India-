@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="chat"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="80"
+        android:title="search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+    <item android:title="Financial Education"
+
+        android:id="@+id/info"/>
+
+    <item android:title="Indian culture"
+
+        android:id="@+id/culture"/>
+    <item android:title="technews"
+
+        android:id="@+id/technews"/>
+    <item android:title="Politicalnews"
+
+        android:id="@+id/Politicalnews"/>
+
+
+
+
+</menu>

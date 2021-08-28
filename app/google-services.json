@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685097711120",
+    "project_id": "impeccable-india-b7e3c",
+    "storage_bucket": "impeccable-india-b7e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685097711120:android:03323f3b6cc8478c8f3c95",
+        "android_client_info": {
+          "package_name": "com.example.impeccable_india"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685097711120-ft0mtbca32i4eq487962b9m9k84f007n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO_uKFWwkG334799tUjT1Yq9S_E3RgH40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685097711120-ft0mtbca32i4eq487962b9m9k84f007n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
